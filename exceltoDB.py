@@ -39,7 +39,7 @@ DATABASE_URL = "mysql+pymysql://root:admin@localhost:3306/exception_database2"
 
 # Excel file path
 EXCEL_FILE_PATH = "C:\\Users\\Sahil Agarwal\\Desktop\\Innovation Fair\\250k_AS_dataset.xlsx"
-TABLE_NAME = "new_dq"
+TABLE_NAME = "250k_new_dataset"
 
 # Create SQLAlchemy engine
 engine = create_engine(DATABASE_URL)
